@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofadi+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden
+}
+
+nav {
+    width: 100%;
+    background-color: red;
+}
+
+/* nav-1 */
+
+.nav-1 {
+    background: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-logo h1 {
+    font-size: 2.2rem;
+    color: #333333;
+}
+
+.nav-time {
+    display: flex;
+}
+
+.nav-time p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #777777;
+}
+
+.nav-time p span {
+    color: #1246ab;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links ul a li {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #777777;
+}
+
+.fa-regular {
+    color: #1246ab;
+    font-size: 1rem;
+}
+
+.about-us {
+    border-left: 1px solid #77777752;
+    border-right: 1px solid #77777752;
+    padding: 0px 10px;
+}
+
+.track-order {
+    border-right: 1px solid #77777752;
+    padding-right: 10px;
+}
+
+/* nav-1 end */
+
+/* nav-2 */
+
+.nav-2 {
+    height: 8vh;
+    width: 100%;
+    background: #1246ab;
+    display: flex;
+    justify-content: center;
+}
+
+.res-bar {
+    display: none;
+}
+
+.res-user {
+    display: none;
+}
+
+.nav-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.nav2-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav2-links ul li {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.nav2-links ul a li i {
+    color: #777777;
+}
+
+.nav2-search {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav2-search input {
+    width: 300px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.nav2-search input::placeholder {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #777777;
+}
+
+.cart-nav2 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.cart-nav2 a .cart-box i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777777;
+    border-radius: 50%;
+}
+
+.num {
+    position: absolute;
+    top: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+/* nav-2 end */
+
+/* header close */
+
+
+
+/* tool-bar nav */
+
+.tool-bar {
+    display: none;
+}
+
+/* tool-bar nav */
+
+
+
+
+/* whatsaap */
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    height: 42px;
+    border-radius: 50px;
+    background: #1246ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.30s;
+}
+
+.whatsapp i {
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: 0.30s;
+}
+
+.whatsapp span {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #ffffff;
+    transition: 0.30s;
+}
+
+.whatsapp:hover {
+    background: #ffffff;
+    box-shadow: 0px 0px 2px #1246ab;
+}
+
+.whatsapp:hover i {
+    color: #1246ab;
+}
+
+.whatsapp:hover span {
+    color: #1246ab;
+}
+
+/* whatsaap end */
+
+
+
+/* landing */
+
+.landing {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #3468cf;
+}
+
+.landing-container {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-details {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.landing-service {
+    width: 510px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.landing-content {
+    width: 45%;
+    height: 100%;
+    background-color: #d0bea3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.landing-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.landing-content p span {
+    color: #1246ab;
+}
+
+.landing-content h4 {
+    font-size: 3rem;
+    line-height: 60px;
+    color: #ffffff;
+    width: 80%;
+}
+
+.landing-content a button {
+    width: 120px;
+    height: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    background-color: #1246ab;
+    color: #ffffff;
+    transition: 0.40s;
+    cursor: pointer;
+}
+
+.landing-content a button:hover {
+    background-color: #00349d;
+}
+
+.landing-img {
+    width: 55%;
+    height: 100%;
+    background-color: darkorange;
+}
+
+.landing-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-box {
+    width: 100%;
+    height: 55%;
+    background: url(https://cdn.pixabay.com/photo/2021/12/23/03/58/da-guojing-6888603_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+
+.service-box h4 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.service-box p {
+    font-size: 1.1rem;
+    color: #fff1f1;
+    width: 40%;
+}
+
+.service-box a button {
+    width: 120px;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: none;
+    background-color: #1246ab;
+    color: #ffffff;
+    transition: 0.40s;
+    cursor: pointer;
+}
+
+.service-box a button:hover {
+    background: #00349d;
+}
+
+.landing-ship {
+    width: 100%;
+    height: 40%;
+    background: url(https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2021/04/GettyImages-1020173734-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px;
+}
+
+.landing-ship h4 {
+    font-size: 2rem;
+    color: #fff1ff;
+}
+
+.landing-ship p {
+    font-size: 1.1rem;
+    color: #fff1f1;
+    width: 45%;
+}
+
+/* landing end */
+
+
+
+
+/* popular-categories */
+
+.popular {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 16vh;
+    overflow-x: hidden;
+}
+
+.popular-categories {
+    width: 80%;
+    height: fit-content;
+}
+
+.popular-heading {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.popular-heading h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.popular-product {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.product-box:hover img {
+    scale: 1.05;
+}
+
+.img-tag {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-tag p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.img-tag span {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* popular-categories end */
+
+
+
